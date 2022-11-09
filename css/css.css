@@ -1,8 +1,6 @@
 .one
 {
 	display:flex;
-	margin:250px;
-	border:2px solid black;
 	flex-direction:column;
 	margin-top:10px;
 	margin-bottom:10px;
@@ -12,28 +10,33 @@
 	display:flex;
 	flex-direction:row;
 	background-color:black;
+	justify-content:space-between;
 }
-.one .header .b1
+.one .header .header1
 {
-	height:20px;
-	width:50px;
-	background-color:blue;
-	margin:20px;
+	display:flex;
+	flex-direction:row;
+	justify-content:flex-start;
 }
-.one .header .b2
+.one .header .header1 .b
 {
-	height:20px;
-	width:50px;
+	height:30px;
+	width:80px;
 	background-color:blue;
-	margin:20px;
-	margin-left:400px;
+	margin:10px;
 }
-.one .header .b
+.one .header .header2
 {
-	height:20px;
-	width:50px;
+	display:flex;
+	flex-direction:row;
+	justify-content:flex-start;
+}
+.one .header .header2 .b
+{
+	height:30px;
+	width:80px;
 	background-color:blue;
-	margin:20px;
+	margin:10px;
 }
 .one .split
 {
@@ -47,8 +50,8 @@
 }
 .one .split .split1 .dark
 {
-	height:50px;
-	width:250px;
+	height:60px;
+	width:280px;
 	background-color:black;
 	margin:0 auto;
 	margin-top:5px;
@@ -56,8 +59,8 @@
 }
 .one .split .split1 .text
 {
-	height:60px;
-	width:300px;
+	height:70px;
+	width:320px;
 	background-color:gray;
 	margin:0 auto;
 	margin-top:5px;
@@ -65,8 +68,8 @@
 }
 .one .split .split1 .button
 {
-	height:20px;
-	width:50px;
+	height:30px;
+	width:80px;
 	background-color:blue;
 	margin:0 auto;
 	margin-top:5px;
@@ -84,7 +87,7 @@
 	display:flex;
 	flex-direction:column;	
 	height:200px;
-	width:350px;
+	width:600px;
 }
 .one .split .split2 .split21 .box
 {
@@ -97,8 +100,8 @@
 }
 .one .split .split2 .split21 .dark
 {
-	height:20px;
-	width:100px;
+	height:30px;
+	width:150px;
 	background-color:black;
 	margin:5px;
 	margin:0 auto;
@@ -107,8 +110,8 @@
 }
 .one .split .split2 .split21 .text
 {
-	height:30px;
-	width:150px;
+	height:40px;
+	width:200px;
 	background-color:gray;
 	margin:5px;
 	margin:0 auto;
@@ -120,7 +123,7 @@
 	display:flex;
 	flex-direction:column;
 	height:200px;
-	width:350px;
+	width:600px;
 }
 .one .split .split2 .split22 .box
 {
@@ -133,8 +136,8 @@
 }
 .one .split .split2 .split22 .dark
 {
-	height:20px;
-	width:100px;
+	height:30px;
+	width:150px;
 	background-color:black;
 	margin:5px;
 	margin:0 auto;
@@ -143,8 +146,8 @@
 }
 .one .split .split2 .split22 .text
 {
-	height:30px;
-	width:150px;
+	height:40px;
+	width:200px;
 	background-color:gray;
 	margin:0 auto;
 	margin-top:5px;
@@ -155,7 +158,7 @@
 	display:flex;
 	flex-direction:column;
 	height:200px;
-	width:350px;
+	width:600px;
 }
 .one .split .split2 .split23 .box
 {
@@ -169,8 +172,8 @@
 }
 .one .split .split2 .split23 .dark
 {
-	height:20px;
-	width:100px;
+	height:30px;
+	width:150px;
 	background-color:black;
 	margin:5px;
 	margin:0 auto;
@@ -179,8 +182,8 @@
 }
 .one .split .split2 .split23 .text
 {
-	height:30px;
-	width:150px;
+	height:40px;
+	width:200px;
 	background-color:gray;
 	margin:5px;
 	margin:0 auto;
@@ -192,7 +195,7 @@
 	display:flex;
 	flex-direction:column;
 	height:200px;
-	width:350px;
+	width:600px;
 }
 .one .split .split2 .split24 .box
 {
@@ -206,8 +209,8 @@
 }
 .one .split .split2 .split24 .dark
 {
-	height:20px;
-	width:100px;
+	height:30px;
+	width:150px;
 	background-color:black;
 	margin:5px;
 	margin:0 auto;
@@ -216,8 +219,8 @@
 }
 .one .split .split2 .split24 .text
 {
-	height:30px;
-	width:150px;
+	height:40px;
+	width:200px;
 	background-color:gray;
 	margin:5px;
 	margin:0 auto;
@@ -229,7 +232,7 @@
 	display:flex;
 	flex-direction:column;
 	height:200px;
-	width:350px;
+	width:600px;
 }
 .one .split .split2 .split25 .box
 {
@@ -243,8 +246,8 @@
 }
 .one .split .split2 .split25 .dark
 {
-	height:20px;
-	width:100px;
+	height:30px;
+	width:150px;
 	background-color:black;
 	margin:5px;
 	margin:0 auto;
@@ -253,8 +256,8 @@
 }
 .one .split .split2 .split25 .text
 {
-	height:30px;
-	width:150px;
+	height:40px;
+	width:200px;
 	background-color:gray;
 	margin:5px;
 	margin:0 auto;
@@ -266,7 +269,7 @@
 	display:flex;
 	flex-direction:column;
 	height:200px;
-	width:350px;
+	width:600px;
 }
 .one .split .split2 .split26 .box
 {
@@ -280,8 +283,8 @@
 }
 .one .split .split2 .split26 .dark
 {
-	height:20px;
-	width:100px;
+	height:30px;
+	width:150px;
 	background-color:black;
 	margin:5px;
 	margin:0 auto;
@@ -290,8 +293,8 @@
 }
 .one .split .split2 .split26 .text
 {
-	height:30px;
-	width:150px;
+	height:40px;
+	width:200px;
 	background-color:gray;
 	margin:5px;
 	margin:0 auto;
@@ -302,13 +305,12 @@
 {
 	display:flex;
 	justify-content:center;
-	border-top:1px solid black;
 	background-color:gray;
 }
 .one .footer .text
 {
-	height:20px;
+	height:30px;
 	width:100px;
 	background-color:brown;
-	margin:20px;
+	margin:10px;
 }
